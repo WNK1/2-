@@ -1,0 +1,10 @@
+<style>
+    a:link 
+    a:visited 
+    {background-color: aqua; 
+     color: azure;
+     font-size: medium;
+     text-align: center;
+     padding: left 15px;
+     text-decoration-line: underline;
+     display:inline-block }
