@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+.mycontainer {
+  display: flex;
+  background-color: black;
+  color: aqua;
+}
+.mycontainer > div {
+  width: 50%;
+}
+</style>
+</head>
+<body>
+
+<h1>Flexbox Example</h1>
+
+<p>определяет раздел работает по принципу h</p>
+
+<div class="mycontainer">
+
+  <div style="background-color:#FFF4A3;">
+    <h1>London</h1>
+    <p>London is the capital city of England.</p>
+    <p>делит текст на 2 разных , схожих по теме </p>
+  </div>
+  
+  <div style="background-color:#FFC0C7;">
+    <h1>Oslo</h1>
+    <p>определяет раздел , работает по принципу h</p>
+    <p>делит текст на 2 разных , схожих по теме </p>
+  </div>
+
+
+</div>
+
+</body>
+</html>
+
+
