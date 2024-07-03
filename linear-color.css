@@ -1,0 +1,65 @@
+.color-hint {
+    background: linear-gradient(black, 90%,whitesmoke);
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;                                                                        
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+li{
+    float: left;
+}
+li a{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+    transition: all .4s ease-in-out ;
+
+
+}
+li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+ }
+ span{
+    color: rgb(135, 250, 212);
+}
+ .simple-linear {
+  background: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+}
+.navbar{
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    width: 100%;
+    
+}
+  header {
+    padding-top: 70px;
+    color: aquamarine;
+    text-align: left;
+    height: 100vh;
+}
+ footer{
+    color: black;
+    text-align: center;
+}
+ body {
+    color: rgb(218, 162, 10);
+    height: 900vh;
+    overflow-x: hidden;
+}
+ article {
+    color: whitesmoke;
+}
