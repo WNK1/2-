@@ -1,0 +1,11 @@
+.color-hint{
+    background: linear-gradient(black,whitesmoke);
+}
+
+.header{
+    padding-top: 70px;
+    color: aquamarine;
+    text-align: center;
+    height: 100vh;
+    
+}

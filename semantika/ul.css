@@ -1,0 +1,39 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: 0;
+
+
+
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+li a:hover{
+    background-color:aliceblue;
+    color: black;
+    
+}
+
+.navbar{
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    width: 100%;
+
+}
+    
