@@ -1,0 +1,27 @@
+body{
+background:linear-gradient(black,grey);
+color:aqua;
+}
+
+h1{
+text-align: center;
+color: orange;
+
+
+}
+.imgcontainerflex{
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: auto;
+    
+   
+}
+
+.divcentre{
+    text-align: center;
+
+
+}
