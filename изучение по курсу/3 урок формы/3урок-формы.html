@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 урок-формы </title>
+    <link rel="stylesheet" href="semantikaУрок.css">
+</head>
+
+<body style="height: 900vh;">
+<form action="#" method="post" enctype="multipart/form-data"></form>
+<!--Тег форм используется для создания формы на сайта -->
+<!-- Тег action является обязательным атрибутом и он определяет куда полетит инфо которая будет находиться в форме (например отправит инфу на сервер)-->
+ <!--# это заглушка так как нельзя оставлять тег акшен пустым 
+ mehod=post означает что пользователь не видит каие данные и куда передаються , скрытый метод передачи данных , с методом пост можно прикреплять файлы с гетом нельзя -->
+
+
+<h1>PLS WRITE THE LOGIN AND PASSWORD</h1>
+ <!--Прием данных от пользователей-->
+<div style="text-align: center;color: aqua;">
+    <input placeholder="login"  type="text" name="login" value="">
+</div>
+<!--если же тип данных  текст тип примет обличие поле ввода , полюнеобходимо дать имя , value оставляем пучстым введенные данные в поле и будет нашим значением 
+обычно value отсавляют пустым-->
+<div style="text-align: center;padding-top: 7px;">
+    <input placeholder="password" type="password" name="password" value="введите пароль">
+    <!--placeholder означает подпись поля ввода , оно не отправляется на сервер и является некой призраком-подсказкой в поле ввода-->
+    <!--ДЛЯ ВСЕХ ТЕГОВ КРОМЕ FORM ПОЖЕМ ПРИМЕНИТЬ ТЕГ DISABLE КОТОРЫЙ БЛОКИРУЕТ ПОЛЕ-->
+</div>
+<hr>
+<h2>Изучение типов input </h2>
+    <div>
+    <h3>Тип radio </h3>
+    <p><input checked type="radio" name="радио кнопка/кнопка выбора 1" value="выбор">кнопка выбора 1</p>
+    <p><input type="radio" name="радио кнопка/кнопка выбора 2" value="без выбора">кнопка выбора 2</p>
+    </div>
+    
+    <br>
+    
+    <div>
+        <p><input type="radio" name="радио кнопка/кнопка выбора 1" value="выбор">кнопка выбора 1</p>
+        <p><input checked type="radio" name="радио кнопка/кнопка выбора 2" value="без выбора">кнопка выбора 2</p>
+
+    </div>
+
+    <br>
+
+<div>
+    <h1>Тип checkbox</h1>
+    <p><input type="checkbox" name="checkbox/кнопка" value="yes">кнопка выбора 1</p>
+    <p><input checked type="checkbox" name="checkbox/кноп 2" value="no">кнопка выбора 2</p>
+    <p><input type="checkbox" name="checkbox/кнопк 4" value="yes">согласен на условия </p>
+    <p><input checked type="checkbox" name="checkbox/кнопк 6" value="no">принимаю пользовательское соглашение</p>
+
+</div>
+
+<br>
+    
+<div>
+    <p><input checked type="file" name="ВЫБОР ФАЙЛА" ></p>
+</div>
+
+<hr>
+<h2>Изучение поля многострочного ввода</h2>
+
+<textarea name="поле ввода">Отзыв :</textarea> 
+
+<hr>
+
+<select name="mercedes">
+    <!--если после селект вписать тег multiplay то список будет так скажем сразу же расскрытым , и можно будет выбирать -->
+    <option value="benz">e-class</option>
+    <option value="benz 2">g-class</option>
+    <option selected value="benz 3">amg gt 63 </option>
+</select>
+
+<!--Select это выпадающий список , а option это пункт из этого списка / если хотим что бы какой то из путнктов был по умолчанию выбран то добовляем selected перед value-->
+
+
+<hr>
+
+<div>
+    <button type="submit" > отправка</button>
+</div>
+<!--при типе submit отправиться вся форма , все что есть на сервер / при тепе reset вся форма отчиститься -->
+</body>
+
+
+</html>
