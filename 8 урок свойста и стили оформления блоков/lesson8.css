@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(black, whitesmoke);
+    height: 200vh;
+}
+
+.header1{
+    border: 3px solid rgb(228, 103, 31);
+    border-radius: 10px;;
+    color: rgb(255, 253, 253);
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+span{
+    display: block;
+    border: 3px solid rgb(228, 103, 31);
+    border-radius: 12px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.boxshadow{
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 23px;
+    box-shadow: 7px 7px 5px 5px whitesmoke;
+    padding: 10px;
+    margin: 15px 30px;
+    color: whitesmoke;
+}
+
+.infoteg{
+    border: 3px solid rgb(228, 103, 31);
+    border-radius: 15px;
+    margin: 7px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+
+}
