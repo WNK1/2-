@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(black,orange);
+    color: rgb(255, 255, 255);
+    height: 300vh;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.block{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.block p{
+    font-size: larger;
+    line-height: 10px;
+    line-height: 5px;
+    color: aquamarine;
+    margin: 20px 0 20px 0;
+}
+.link{
+    color: rgb(255, 255, 255);
+
+}
+.link:visited{
+    color: rgb(10, 179, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.textinput{
+    display: block;
+    width: 300px;
+    height: 100px;
+    color: whitesmoke;
+    background-color: black
+}
+.textinput:focus{
+    box-shadow: 2px 4px 4px 2px orange;
+
+}
+.textbutton{
+    width: 140px;
+    margin: 6px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: black;
+    text-transform: lowercase;
+}
+.textbutton:hover{
+    box-shadow: 2px 4px 4px 2px orange;
+}
+
+.list{
+    display: block;
+    list-style-type: none;
+
+}
+.list li{
+    padding: 0;
+    background: url(favicon-16x16.png) left no-repeat;
+    padding: 25px;
+}
+
+.list li:first-child{
+    color: orange;
+}
+.list li:nth-child(2){
+    font-weight: 900;
+    color: greenyellow;
+}

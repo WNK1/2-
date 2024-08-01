@@ -1,0 +1,52 @@
+
+body{
+    margin: 5px;
+    background: rgb(53,92,125);
+    background: linear-gradient(90deg, rgba(53,92,125,1) 0%, rgba(108,91,123,1) 50%, rgba(192,108,132,1) 100%);
+    height: 300vh;
+    font-size: large;
+}
+
+mark{
+background-color: whitesmoke;
+
+}
+
+.back{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 3px;
+    margin-left: 10px; ;
+    margin-right: 10px ;
+    color: rgb(255, 166, 0);
+    text-align: center;
+
+}
+
+.infogradient{
+    color: orange;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.backps{
+    background: yellow;
+    color: black;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    box-shadow: 3px 3px 5px 5px;
+    border-radius: 15px;
+
+}
+
+.test{
+    border: 2px dotted blueviolet;
+    border-radius: 33px;
+    color: aqua;
+    text-align: center;
+    background: url("./test.png") 3px 0px no-repeat;
+    background-size:contain;
+    padding: 15px;
+
+
+}
