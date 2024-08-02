@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(black,yellow);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 300vh;
+}
+
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+
+.text{
+    color: rgb(66, 190, 132);
+    text-align: center;
+}
+
+.text::first-line{
+    color: yellow;
+}
+span{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+
+.list{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.list li{
+    background: url(favicon-16x16.png) left no-repeat;
+    padding: 0px 0px 0px 23px;
+    color: whitesmoke;
+  
+}
+
+.list li:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.list li:hover::after{
+    content: "хехе";
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 6px;
+}
+
+.term1{
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 900;
+   
+}
+
+.term1::first-letter{
+    color: blueviolet;
+    font-size: 36px;
+}
+
+
