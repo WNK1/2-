@@ -1,0 +1,87 @@
+body{
+    background:linear-gradient(black,orange);
+    font-size: large;
+    color: orange;
+    padding: 10px;
+    height: 300vh;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+
+.block{
+    text-align: center;
+    border: 5px solid orange;
+    box-shadow: 2px 4px 4px 2px whitesmoke;
+    margin: 0px auto;
+    max-width: 1400px;
+    height: 800px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.block___1{
+    border: 2px solid orange;
+    padding: 0px 0px 30px 0px;
+    margin-top: 30px;
+    background-color: black;
+    color: orange;
+    position: relative;
+    bottom: 15px;
+    left: 40px;
+}
+
+.block___2{
+    border: 2px solid orange;
+    padding: 0px 0px 30px 0px;
+    background-color: aquamarine;
+    color: black;
+
+}
+
+.block___3{
+    border: 2px solid orange;
+    padding: 0px 0px 30px 0px;
+    background-color: aliceblue;
+    color: orange;
+    position: relative;
+    top: 15px;
+    right: 40px;
+
+}
+.block___4{
+    background-color: blueviolet;
+    color: azure;
+    position: sticky;
+    top:0px;
+}
+.block___4:active{
+    background: whitesmoke;
+    box-shadow: 2px 4px 4px 2px black;
+    color: orange;
+}
+
+.term{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: orange;
+    border: 2px solid aqua;
+    border-radius: 12px;
+    font-size: x-large;
+    text-align: center;
+
+}
+.term___2{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: aqua;
+}
+.term:hover{
+    box-shadow: 2px 4px 4px 2px orange;
+}
